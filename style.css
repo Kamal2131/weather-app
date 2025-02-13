@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    background: linear-gradient(135deg, #a8e6cf, #ff8c94);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.input-group input {
+    border-radius: 50px 0 0 50px;
+    padding: 12px;
+}
+
+.input-group button {
+    border-radius: 0 50px 50px 0;
+    padding: 12px;
+}
+
+#weather-info {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
